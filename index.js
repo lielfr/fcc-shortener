@@ -48,7 +48,6 @@ app.get('*', function(request, response) {
     else {
       var shortenedKey = shortenURL(userInput);
       var URLPrefix = request.protocol + '://' + request.hostname;
-      if (port !== 80) URLPrefix += ':' + port;
       var shortenedURL = URLPrefix + '/' + shortenedKey;
       toReturn['original_url'] = userInput;
       toReturn['shortened_url'] = shortenedURL;
