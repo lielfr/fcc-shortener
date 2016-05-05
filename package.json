@@ -1,0 +1,14 @@
+{
+  "name": "fcc-shortener",
+  "version": "1.0.0",
+  "description": "My solution to FCC's url shortener microservice challenge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Liel Fridman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
